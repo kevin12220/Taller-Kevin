@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    font-size: 26px;
+  
+
+}
+section{
+
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 40px;
+    padding: 50px;
+
+
+}
+
+footer{
+    background: black;
+}
+
+
+.header__img img {
+    width: 250px;
+    height: 249px;
+}
+
+ul.header__options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__options__container {
+
+    width: 50%;
+}
+
+
+.header__option1 {
+    list-style: none;
+    padding: 10px;
+    background: aquamarine;
+    border-radius: 30px;
+    
+}
+
+.header__option2 {
+    list-style: none;
+    padding: 10px;
+    background: brown;
+    border-radius: 30px;
+}
+
+.header__option3 {
+    list-style: none;
+    padding: 10px;
+    background: darkcyan;
+    border-radius: 300px;
+}
+
+.header__option4 {
+    list-style: none;
+    padding: 10px;
+    background: gray;
+    border-radius: 30px;
+}
+
+a.options {
+    font-family: "Cookie", cursive;
+    color: gold;
+    text-decoration: none;
+   
+   
+}
+
+.icons {
+    color: rgb(250, 249, 248);
+    list-style: none;
+    font-size: xxx-large;
+
+}
+
+.icons1 {
+    color: rgb(242, 242, 10);
+    list-style: none;
+    font-size: xxx-large;
+
+}
+.icons2 {
+    color: rgb(7, 249, 201);
+    list-style: none;
+    font-size: xxx-large;
+
+}
+
+.capsules{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    gap: 50px;
+}
+
+.font--md {
+    font-family: "Cookie", cursive;
+    font-size: 26px;
+    padding: 10px;
+    background: rgb(7, 7, 7);
+    border-radius: 12px;
+    
+}
+
+.font--sm {
+    font-size: 13px;
+    padding: 10px;
+    background: #e7e7e95e;
+    color: #9C27B0;
+    text-align: justify;
+}
